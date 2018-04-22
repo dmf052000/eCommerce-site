@@ -1,0 +1,22 @@
+{
+  "name": "kilogramsite",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Isabelle"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "angular": "^1.6.9",
+    "font-awesome": "^5.0.9"
+  }
+}

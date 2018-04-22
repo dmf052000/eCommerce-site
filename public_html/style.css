@@ -1,0 +1,344 @@
+.navbar {
+    background-color: rgba(255,192,0,1);
+    margin-bottom: 0px;
+    padding-bottom: 3px;
+    padding-top: 0;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.navbar-header {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    color: 	#1a1a1a;
+    display : flex;
+    align-items : center;
+}
+
+.navbar img {
+    height: 48px;
+    margin-top: -10px;
+    margin-right: 0;
+    padding-left: 10px;
+}
+
+.navbar-right {
+    font-size: 1.3em;
+}
+
+.jumbo-mobile {
+    background-image: url(assets/weareopen.jpg);
+    background-size: cover;
+    height: 480px;
+    background-position-x: -110px;
+    margin-top: 48px;
+    margin-bottom: -80px;
+    
+        
+}
+
+
+.jumbotron {
+    height: 100vh;
+    background-image: url(assets/weareopen.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: -80px;
+    background-position-y: -80px;
+    margin-bottom: -10px;
+    background-color: #0d0d0d;
+    padding: 0 !important;
+}
+
+
+
+.white-box{
+    height: 100%;
+    width:40%;
+    min-width: 360px;
+    background-color: rgba(255, 255, 255, .7);
+    float: right;   
+}
+
+.white-mobile-box{
+    width: 100%;
+    height: 100%;
+    
+    background-color: rgba(255, 255, 255, .7);  
+
+
+
+}
+
+
+.black-box{
+    width: 80%;
+    height: 78%;
+    background-color: #0d0d0d;
+    position: relative;
+    top: 13%;
+    left: 10%;
+    padding: 10%;
+}
+
+.black-mobile-box{
+    width: 80%;
+    height: 80%;
+    background-color: #0d0d0d;
+    position: relative;
+    top: 13%;
+    left: 10%;
+    padding: 10%;
+
+}
+
+.browse-btn {
+    position: absolute;
+    white-space: normal;
+    width: 75%;
+}
+
+
+
+.black-box h1{
+    font-family: Helvetica;
+    font-stretch: condensed;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 33px;
+}
+
+.black-mobile-box h1{
+    font-family: Helvetica;
+    font-stretch: condensed;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 24px;
+}
+
+.brands{
+background-color: whitesmoke;
+padding-top: 5px;
+margin-top: 30px;
+}
+
+.brands-header {
+    border: 3px solid rgba(255,192,0,1);
+    border-radius: 25px;
+    margin-top: 25px;;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px; 
+    padding-top: 10px;
+    max-width: 600px;
+    width:80%;
+    font-stretch: condensed;
+    text-align: center;
+    align-items : center;
+    font-size: 1.7em;
+    white-space: normal;
+    
+
+}
+
+
+.flex-container{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin-bottom: 15px;
+    
+}
+
+.flex-container > div {
+    padding: 18px;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+
+.long-bar {
+    background-image: url(assets/longbar1.jpg);
+    min-height: 280px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    margin-top: 15px;
+    margin-bottom: -30px;
+}
+
+.long-bar-sm {
+    background-image: url(assets/longbar1.jpg);
+    height: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:550px;
+}
+
+.promo {
+margin-top: 25px;
+}
+
+.section-header {
+    border: 3px solid rgba(255,192,0,1);
+    border-radius: 25px;
+    margin-top: 25px;;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px; 
+    padding-top: 10px;
+    max-width: 600px;
+    width:80%;
+    font-stretch: condensed;
+    text-align: center;
+    align-items : center;
+    font-size: 1.7em;
+    white-space: normal;
+    
+
+}
+
+.img__wrapper{
+    position:relative;
+    overflow:hidden;
+  }
+
+
+.sold_out {
+    top: 2em;
+    left: -5em;
+    color: #fff;
+    display: block;
+    position:absolute;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: .06em;
+    background-color: #A00;
+    padding: 0.5em 5em 0.4em 5em;
+    text-shadow: 0 0 0.75em #444;
+    box-shadow: 0 0 0.5em rgba(0,0,0,0.5);
+    font: bold 16px/1.2em Arial, Sans-Serif;
+    -webkit-text-shadow: 0 0 0.75em #444;
+    -webkit-box-shadow: 0 0 0.5em rgba(0,0,0,0.5);
+    -webkit-transform: rotate(-45deg) scale(0.75,1);
+    z-index:10;
+}
+.sold_out:before {
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    margin: -0.3em -5em;
+    transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+    border: 2px rgba(255,255,255,0.7) dashed;
+}
+
+.promo_detail{
+    bottom: 0%;
+    width: 100%;
+    background-color: #A00;
+    opacity: 0.9;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    color: white;
+    position: absolute;
+    font: bold 16px/1.5em Arial, Sans-Serif;
+    -webkit-text-shadow: 0 0 0.75em #444;
+    -webkit-box-shadow: 0 0 0.5em rgba(0,0,0,0.5);
+
+
+
+}
+
+.polaroid{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 530px;
+}
+
+.promo-polaroid{
+    height: 445px;
+    
+}
+
+.box3 > p{
+    display: inline;
+}
+
+.price {
+    display:inline;    
+}
+
+.carton {
+    padding-top: 10%;
+    margin-left: -20%;;
+}
+
+.country {
+    text-align: right;
+}
+
+.quotation-list{
+    border: whitesmoke 1px solid;   
+    overflow: auto; 
+}
+
+.form{
+    margin-top: 15px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.required{
+    color: orange;
+}
+
+.contact-fields{
+    background-color: whitesmoke;
+    padding: 20px;
+    
+}
+
+.girl-img {
+    background-image: url(assets/ladyshopping.jpg);
+    height: 555px;
+    background-size: cover;
+    background-position-x: 95%;
+}
+
+.shadow-row{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 30px;
+    
+}
+
+
+.footer{
+    text-align:center;
+    width: 100 vw;
+    color: #353330;
+    background-color: whitesmoke;
+    margin-top: -1px;
+    padding-bottom: 20px;
+    height: 149px;    
+    
+}
+
+.link{
+    color: darkslategrey;
+}
+.bottom-nav{
+    text-align:center;
+    background-color: rgba(255,192,0,1);
+    height: 148px;    
+}
